@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  post '/users', to: 'user#create'
+  post '/users', to: 'users#create'
 end
